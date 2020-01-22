@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I love Kaas</title>
+    <link rel="stylesheet" href="Kaas.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Over</a></li>
+            </ul>
+        </nav>
+
+        <script src="js/kaas.js"></script>
+
+        <form>
+            <input type="search" placeholder="Zoeken..">
+            <input type="submit" value="Zoek">
+        </form>
+
+        <button id="zoekknop">
+            <img id="zoekglas" src='imgs/zoekglas.png' alt='Zoeken'> Zoeken
+        </button>
+
+        <section class=titel>
+            <h1>I</h1>
+            <h1 id="hartje">&hearts;</h1>
+            <h1>KAAS</h1>
+            <!--<h2>Mijn favo kazen</h2>-->
+        </section>
+
+    </header>
+
+
+    <main>
+        <!--style="font-size:15vw;" -->
+
+
+        <h3>Kazen</h3>
+
+
+
+
+
+        <nav class=filter>
+            <label for="1">Filteren en sorteren
+
+                <label>Land:
+                    <select name="Land">
+
+                        <option value="holland">Holland</option>
+                        <option value="italie">Italië</option>
+                        <option value="frankrijk">Frankrijk</option>
+                        <option value="engeland">Engeland</option>
+                    </select>
+                </label>
+
+                <label>Melk:
+                    <select name="Melk">
+                        <option value="geitenmelk">Geitenmelk</option>
+                        <option value="koeienmelk">Koeienmelk</option>
+                        <option value="schapenmelk">Schapenmelk</option>
+                    </select>
+                </label>
+
+                <label>Kleur:
+                    <select name="Kleur">
+                        <option value="geel">Geel</option>
+                        <option value="wit">Wit</option>
+                        <option value="blauw">Blauw</option>
+                        <option value="rood">Rood</option>
+                    </select>
+                </label>
+
+                <form>
+                    <p>Textuur:</p>
+                    Smeuïg
+                    <input type="range" name="Zachtheid" min="smeuig" max="hard">Hard
+                </form>
+
+                <form>
+                    <p>Smaak:</p>
+                    Mild
+                    <input type="range" name="Scherpte" min="mild" max="pittig">Pittig
+                </form>
+
+                <input type="submit">
+            </label>
+        </nav>
+
+
+
+
+
+        <section class="Kazen">
+
+
+            <article>
+                <h4>Geitenkaas</h4>
+                <img src='imgs/Geitenkaas.jpeg' alt='Geitenkaas'>
+            </article>
+
+            <article>
+                <h4>Gorgonzola</h4>
+                <img src='imgs/Gorgonzola.jpg' alt='Gorgonzola'>
+            </article>
+
+            <article>
+                <h4>Oude Kaas</h4>
+                <img src='imgs/Oudekaas.jpg' alt='Oude Kaas'>
+            </article>
+
+            <article>
+                <h4>Maasdammer</h4>
+                <img src='imgs/Maasdammer.jpg' alt='Maasdammer'>
+            </article>
+
+            <article>
+                <h4>Mozzarella</h4>
+                <img src='imgs/Mozzarella.jpg' alt='Mozzarella'>
+            </article>
+
+            <article>
+                <h4>Port Salut</h4>
+                <img src='imgs/Port%20Salut.jpg' alt='Port Salut'>
+            </article>
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+
+
+
+    </footer>
+
+
+</body>
+
+
+</html>
